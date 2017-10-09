@@ -1,0 +1,9 @@
+{
+  "tenant": "Facilities",
+  "appName": "Facilities app",
+  "pages": {
+    "google-search": {
+      "pageName": "my search page"
+    }
+  }
+}
