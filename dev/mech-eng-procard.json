@@ -1,0 +1,87 @@
+{
+  "tenant": "mech-eng-procard",
+  "appName": "Mechanical Engineering: ProCard Receipts",
+  "customText": {},
+  "pages": {
+    "tab-search": {
+      "pageName": "ProCard Receipts",
+      "theme": "uw-default",
+      "fieldsToDisplay": [
+        "ProCardHolder",
+        "PurchaseDate",
+        "Amount",
+        "Vendor",
+        "BudgetNumber",
+        "DocumentSubtype",
+        "PublishStatus"
+      ],
+      "editPageConfig": {
+        "theme": "uw-default",
+        "pageName": "Edit Content Item",
+        "fieldsToDisplay": [
+          "ReceivedDate",
+          "ProCardHolder",
+          "Filer",
+          "PurchaseDate",
+          "DocumentSubtype",
+          "Amount",
+          "Vendor",
+          "BudgetNumber",
+          "PublishStatus"
+        ],
+        "buttons": [
+          {
+            "label": "Void",
+            "command": "voidItem"
+          },
+          {
+            "label": "Publish",
+            "command": "publishItem"
+          },
+          {
+            "label": "Save",
+            "color": "primary",
+            "command": "saveItem"
+          }
+        ],
+        "viewPanel": true
+      },
+      "searchConfig": {
+        "directions":
+          "Type a budget number, vendor name, amount, or other info",
+        "label": "",
+        "placeholder": "Search for documents",
+        "indexName": "documents-procard"
+      },
+      "facetsConfig": {
+        "active": true,
+        "facets": {
+          "metadata.ProCardHolder.raw": {
+            "key": "metadata.ProCardHolder.raw",
+            "label": "ProCard Holder",
+            "order": "desc",
+            "size": 10
+          },
+          "metadata.PublishStatus": {
+            "key": "metadata.PublishStatus",
+            "label": "Reviewed",
+            "order": "desc",
+            "size": 5
+          },
+          "metadata.BudgetNumber.raw": {
+            "key": "metadata.BudgetNumber.raw",
+            "label": "Document Type",
+            "order": "desc",
+            "size": 10
+          },
+          "metadata.DocumentSubtype.raw": {
+            "key": "metadata.DocumentSubtype.raw",
+            "label": "Type",
+            "order": "desc",
+            "size": 5
+          }
+        }
+      }
+    }
+  }
+}
