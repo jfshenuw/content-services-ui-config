@@ -70,7 +70,7 @@
           },
           "metadata.BudgetNumber.raw": {
             "key": "metadata.BudgetNumber.raw",
-            "label": "Document Type",
+            "label": "Budget",
             "order": "desc",
             "size": 10
           },
