@@ -49,11 +49,11 @@
         "pageName": "Edit Content Item",
         "theme": "uw-default",
         "fieldsToDisplay": [
-          "CategoryId",
-          "ProfileId",
-          "OriginalFileName",
-          "PublishStatus",
-          "LastModifiedDate"
+           {"name": "CategoryId", "label": "Category Id"},
+           {"name": "ProfileId", "label": "Profile Id"},
+           {"name": "OriginalFileName", "label": "Original FileName"},
+           {"name": "PublishStatus", "label": "Publish Status"},
+           {"name": "LastModifiedDate", "label": "Last Modified Date"}
         ],
         "viewPanel": true,
         "buttons": [
@@ -81,10 +81,10 @@
         "theme": "uw-default",
         "pageName": "Edit Content Item",
         "fieldsToDisplay": [
-          "CategoryId",
-          "ProfileId",
-          "OriginalFileName",
-          "PublishStatus"
+          {"name": "CategoryId", "label": "Category Id"},
+          {"name": "ProfileId", "label": "Profile Id"},
+          {"name": "OriginalFileName", "label": "Original FileName"},
+          {"name": "PublishStatus", "label": "Publish Status"}
         ],
         "buttons": [
           {
