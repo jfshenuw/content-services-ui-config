@@ -26,7 +26,7 @@
           "Type a budget number, vendor name, amount, or other info",
         "label": "",
         "placeholder": "Search for documents",
-        "indexName": "documents-facilities"
+        "indexName": "documents-demo"
       },
       "facetsConfig": {
         "active": true,
@@ -108,7 +108,7 @@
           "Type a budget number, vendor name, amount, or other info",
         "label": "",
         "placeholder": "Search for documents",
-        "indexName": "documents-facilities"
+        "indexName": "documents-demo"
       },
       "facetsConfig": {
         "active": true,
