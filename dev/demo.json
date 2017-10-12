@@ -21,6 +21,13 @@
       "theme": "uw-default",
       "fieldsToDisplay": ["LastModifier", "MimeType"],
       "secondSearchBox": true,
+      "searchConfig": {
+        "directions":
+          "Type a budget number, vendor name, amount, or other info",
+        "label": "",
+        "placeholder": "Search for documents",
+        "indexName": "documents-facilities"
+      },
       "facetsConfig": {
         "active": true,
         "facets": {
@@ -100,7 +107,8 @@
         "directions":
           "Type a budget number, vendor name, amount, or other info",
         "label": "",
-        "placeholder": "Search for documents"
+        "placeholder": "Search for documents",
+        "indexName": "documents-facilities"
       },
       "facetsConfig": {
         "active": true,
