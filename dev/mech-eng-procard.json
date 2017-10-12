@@ -7,27 +7,27 @@
       "pageName": "ProCard Receipts",
       "theme": "uw-default",
       "fieldsToDisplay": [
-        "ProCardHolder",
-        "PurchaseDate",
-        "Amount",
-        "Vendor",
-        "BudgetNumber",
-        "DocumentSubtype",
-        "PublishStatus"
+         {"name": "ProCardHolder", "label": "ProCard Holder"},
+        {"name": "PurchaseDate", "label": "Purchase Date"},
+        {"name": "Amount", "label": "Amount"},
+        {"name": "Vendor", "label": "Vendor"},
+        {"name": "BudgetNumber", "label": "Budget"},
+        {"name": "DocumentSubtype", "label": "Type"},
+        {"name": "PublishStatus", "label": "Reviewed"}
       ],
       "editPageConfig": {
         "theme": "uw-default",
         "pageName": "Edit Content Item",
         "fieldsToDisplay": [
-          "ReceivedDate",
-          "ProCardHolder",
-          "Filer",
-          "PurchaseDate",
-          "DocumentSubtype",
-          "Amount",
-          "Vendor",
-          "BudgetNumber",
-          "PublishStatus"
+          {"name": "ReceivedDate", "label": "Received Date"},
+          {"name": "ProCardHolder", "label": "ProCard Holder"},
+          {"name": "Filer", "label": "Filer"},
+          {"name": "PurchaseDate", "label": "Purchase Date"},
+          {"name": "DocumentSubtype", "label": "Type"},
+          {"name": "Amount", "label": "Amount"},
+          {"name": "Vendor", "label": "Vendor"},
+          {"name": "BudgetNumber", "label": "Budget"},
+          {"name": "PublishStatus", "label": "Reviewed"}
         ],
         "buttons": [
           {
