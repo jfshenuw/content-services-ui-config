@@ -1,0 +1,65 @@
+{
+  "tenant": "foster",
+  "appName": "Foster School of Business",
+  "customText": {},
+  "pages": {
+    "tab-search": {
+      "pageName": "Foster",
+      "theme": "uw-default",
+      "fieldsToDisplay": [
+        {"name": "StudentId", "label": "Student"},
+        {"name": "DocumentSubtype", "label": "Type"},
+        {"name": "ReceivedDate", "label": "Received Date"},
+        {"name": "Adviser", "label": "Adviser"},
+        {"name": "SignedDate", "label": "Signed Date"}
+      ],
+      "editPageConfig": {
+        "theme": "uw-default",
+        "pageName": "Edit Content Item",
+        "fieldsToDisplay": [
+          {"name": "StudentId", "label": "Student"},
+          {"name": "DocumentSubtype", "label": "Type"},
+          {"name": "ReceivedDate", "label": "Received Date", "type": "date"},
+          {"name": "Adviser", "label": "Adviser"},
+          {"name": "SignedDate", "label": "Signed Date", "type": "date"}
+        ],
+        "buttons": [
+          {
+            "label": "Void",
+            "command": "voidItem"
+          },
+          {
+            "label": "Save",
+            "color": "primary",
+            "command": "saveItem"
+          }
+        ],
+        "viewPanel": true
+      },
+      "searchConfig": {
+        "directions":
+          "Type a student number or other info",
+        "label": "",
+        "placeholder": "Search for documents",
+        "indexName": "documents-foster"
+      },
+      "facetsConfig": {
+        "active": true,
+        "facets": {
+          "metadata.StudentId.raw": {
+            "key": "metadata.StudentId.raw",
+            "label": "Student",
+            "order": "desc",
+            "size": 10
+          },
+          "metadata.DocumentSubtype.raw": {
+            "key": "metadata.DocumentSubtype.raw",
+            "label": "Type",
+            "order": "desc",
+            "size": 5
+          }
+        }
+      }
+    }
+  }
+}
