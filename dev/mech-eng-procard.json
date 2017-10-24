@@ -19,10 +19,10 @@
         "theme": "uw-default",
         "pageName": "Edit Content Item",
         "fieldsToDisplay": [
-          {"name": "ReceivedDate", "label": "Received Date"},
+          {"name": "ReceivedDate", "label": "Received Date", type: "date"},
           {"name": "ProCardHolder", "label": "ProCard Holder"},
           {"name": "Filer", "label": "Filer"},
-          {"name": "PurchaseDate", "label": "Purchase Date"},
+          {"name": "PurchaseDate", "label": "Purchase Date", type: "date"},
           {"name": "DocumentSubtype", "label": "Type"},
           {"name": "Amount", "label": "Amount"},
           {"name": "Vendor", "label": "Vendor"},
