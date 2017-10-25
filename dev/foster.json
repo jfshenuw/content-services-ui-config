@@ -18,8 +18,8 @@
         "pageName": "Edit Content Item",
         "fieldsToDisplay": [
           {"name": "StudentId", "label": "Student"},
-          {"name": "DocumentSubtype", "label": "Form", "type": "list",
-           "items":[
+          {"name": "DocumentSubtype", "label": "Form", "type": "select",
+           "options":[
                {"value": ""},
                {"value":"Change of Major"},
                {"value":"CISB Audit"},
