@@ -46,9 +46,9 @@
       "facetsConfig": {
         "active": true,
         "facets": {
-          "metadata.StudentId.raw": {
-            "key": "metadata.StudentId.raw",
-            "label": "Student",
+          "metadata.Adviser.raw": {
+            "key": "metadata.Adviser.raw",
+            "label": "Adviser",
             "order": "desc",
             "size": 10
           },
