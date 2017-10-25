@@ -18,7 +18,18 @@
         "pageName": "Edit Content Item",
         "fieldsToDisplay": [
           {"name": "StudentId", "label": "Student"},
-          {"name": "DocumentSubtype", "label": "Form"},
+          {"name": "DocumentSubtype", "label": "Form", "type": "list",
+           "items":[
+               {"value": ""},
+               {"value":"Change of Major"},
+               {"value":"CISB Audit"},
+               {"value":"Course Evaluation"},
+               {"value":"Degree Plan"},
+               {"value":"Graduation Application"},
+               {"value":"Letter"},
+               {"value":"Miscellaneous"}
+             ]
+          },
           {"name": "ReceivedDate", "label": "Received Date", "type": "date"},
           {"name": "Adviser", "label": "Adviser"},
           {"name": "SignedDate", "label": "Signed Date", "type": "date"}
