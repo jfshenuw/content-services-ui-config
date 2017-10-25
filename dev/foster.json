@@ -8,7 +8,7 @@
       "theme": "uw-default",
       "fieldsToDisplay": [
         {"name": "StudentId", "label": "Student"},
-        {"name": "DocumentSubtype", "label": "Type"},
+        {"name": "DocumentSubtype", "label": "Form"},
         {"name": "ReceivedDate", "label": "Received Date"},
         {"name": "Adviser", "label": "Adviser"},
         {"name": "SignedDate", "label": "Signed Date"}
@@ -18,7 +18,7 @@
         "pageName": "Edit Content Item",
         "fieldsToDisplay": [
           {"name": "StudentId", "label": "Student"},
-          {"name": "DocumentSubtype", "label": "Type"},
+          {"name": "DocumentSubtype", "label": "Form"},
           {"name": "ReceivedDate", "label": "Received Date", "type": "date"},
           {"name": "Adviser", "label": "Adviser"},
           {"name": "SignedDate", "label": "Signed Date", "type": "date"}
@@ -54,7 +54,7 @@
           },
           "metadata.DocumentSubtype.raw": {
             "key": "metadata.DocumentSubtype.raw",
-            "label": "Type",
+            "label": "Form",
             "order": "desc",
             "size": 5
           }
