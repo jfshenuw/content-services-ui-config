@@ -17,7 +17,14 @@
         "theme": "uw-default",
         "pageName": "Edit Content Item",
         "fieldsToDisplay": [
-          {"name": "StudentId", "label": "Student"},
+          {"name": "StudentId", "label": "Student", "type":"select",
+           "options":[
+               {"value": ""},
+               {"value":"S1"},
+               {"value":"S2"},
+               {"value":"S3"}
+            ]
+          },
           {"name": "DocumentSubtype", "label": "Form", "type": "select",
            "options":[
                {"value": ""},
