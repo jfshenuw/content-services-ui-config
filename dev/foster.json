@@ -17,7 +17,7 @@
         "theme": "uw-default",
         "pageName": "Edit Content Item",
         "fieldsToDisplay": [
-          {"name": "StudentId", "label": "Student", "type":"select",
+          {"name": "StudentId", "label": "Student", "type":"typeahead",
            "options":[
                {"value": ""},
                {"value":"S1"},
@@ -25,7 +25,7 @@
                {"value":"S3"}
             ]
           },
-          {"name": "DocumentSubtype", "label": "Form", "type": "select",
+          {"name": "DocumentSubtype", "label": "Form", "type": "typeahead",
            "options":[
                {"value": ""},
                {"value":"Change of Major"},
