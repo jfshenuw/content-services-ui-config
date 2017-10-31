@@ -19,15 +19,8 @@
         "fieldsToDisplay": [
           {"name": "StudentId", "label": "Student"},
           {"name": "DocumentSubtype", "label": "Form", "type": "typeahead",
-           "options":[
-               {"value": ""},
-               {"value":"Change of Major", "label":"label1"},
-               {"value":"CISB Audit"},
-               {"value":"Course Evaluation", "label":"label3"},
-               {"value":"Degree Plan"},
-               {"value":"Graduation Application"},
-               {"value":"Letter"},
-               {"value":"Miscellaneous"}
+           "options":["", "Change of Major", "CISB Audit", "Course Evaluation", "Degree Plan",
+                      "Graduation Application", "Letter", "Miscellaneous"
              ]
           },
           {"name": "ReceivedDate", "label": "Received Date", "type": "date"},
