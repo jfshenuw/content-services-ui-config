@@ -18,14 +18,14 @@
         "pageName": "Edit Content Item",
         "fieldsToDisplay": [
           {"name": "StudentId", "label": "Student"},
-          {"name": "DocumentSubtype", "label": "Form", "type": "typeahead",
+          {"name": "DocumentSubtype", "label": "Form", "displayType": "autocomplete",
            "options":["", "Change of Major", "CISB Audit", "Course Evaluation", "Degree Plan",
                       "Graduation Application", "Letter", "Miscellaneous"
-             ]
+                     ]
           },
-          {"name": "ReceivedDate", "label": "Received Date", "type": "date"},
+          {"name": "ReceivedDate", "label": "Received Date", "dataType": "date", "displayType":"date"},
           {"name": "Adviser", "label": "Adviser"},
-          {"name": "SignedDate", "label": "Signed Date", "type": "date"}
+          {"name": "SignedDate", "label": "Signed Date", "dataType": "date", "displayType":"date"}
         ],
         "buttons": [
           {
