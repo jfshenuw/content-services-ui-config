@@ -9,7 +9,7 @@
       "fieldsToDisplay": [
         {"name": "StudentId", "label": "Student"},
         {"name": "DocumentSubtype", "label": "Form"},
-        {"name": "ReceivedDate", "label": "Received Date"},
+        {"name": "ReceivedDate", "label": "Received Date", "displayType":"date"},
         {"name": "Adviser", "label": "Adviser"},
         {"name": "SignedDate", "label": "Signed Date"}
       ],
